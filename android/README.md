@@ -1,12 +1,13 @@
 # Android setup
 - this is assuming you have set up firebase and have created a new project
-- first, create a new android studio project with no template
-- Follow [this](https://firebase.google.com/docs/android/setup) setup guide for your app. Important steps are highlighted below
+- first, create a new android studio project with a blank activity
+- Follow [this](https://firebase.google.com/docs/android/setup) setup guide for your app. Important steps are highlighted below:
   - Navigate to the [Firebase Console](https://console.firebase.google.com)
     - Click Add Firebase to your Android app
     - Then, enter your android project's package name, and click add app
     - you should have downloaded a google-services.json file, if not go to project settings and download it
       - you can get to project settings by pressing the gear icon next to overview in the nav
+    - add the google-services.json file in you android project's app directory
   - In android studio, you have to go to tools>android>SDK Manager and under the SDK tools tab make sure that you have installed:
     - Google Play Services
     - Google Repository
@@ -14,7 +15,7 @@
 - After you are done with this, you can copy the given manifest, source code, and the layout into your android project
   - you will likely have to update the class packages in the java files and in the AndroidManifest.xml file
   - you will need to put the layout folder into the res folder, but the colors and styles files inside res>values may not be necessary
-- The phone's token will appear on the screen and will be printed to the console. This value is the <devices> value in envVar.js
+- The phone's token will appear on the screen and will be printed to the console. You should be able to select the token, copy it, and email it to yourself. This value is the <devices> value in envVar.js.
 - The <api_key> value can be found by going to the [Firebase Console](https://console.firebase.google.com), navigating to project settings, going to the cloud messaging tab, and coping the Server key.
 - One important point is that you need to close and reopen the android app after initially installing it for the app to start receiving requests.
 - Run the script.js file with node and you should get a push notification on your phone.
