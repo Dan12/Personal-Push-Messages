@@ -12,7 +12,7 @@
     - Google Repository
   - follow the gradle instructions exactly
 - After you are done with this, you can copy the given manifest, source code, and the layout into your android project
-  - you will likely have to update the class packages
+  - you will likely have to update the class packages in the java files and in the AndroidManifest.xml file
   - you will need to put the layout folder into the res folder, but the colors and styles files inside res>values may not be necessary
 - The phone's token will appear on the screen and will be printed to the console. This value is the <devices> value in envVar.js
 - The <api_key> value can be found by going to the [Firebase Console](https://console.firebase.google.com), navigating to project settings, going to the cloud messaging tab, and coping the Server key.

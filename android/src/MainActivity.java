@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.google.firebase.iid.FirebaseInstanceId;
 
 /**
- * Created by dantech on 1/9/17.
+ * Created by Daniel Weber on 1/9/17.
  */
 
 public class MainActivity extends AppCompatActivity {
