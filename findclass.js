@@ -83,6 +83,7 @@ var sendRequest = (name) => {
 }
 
 exports.testforopening = (name) => {
+  sendRequest(name);
 
   reqInterval = setInterval(() => {
     sendRequest(name);

@@ -9,7 +9,7 @@ var testPush = () => {
 }
 
 var classOpening = () => {
-  classFinder.testforopening('CS 3410-001');
+  classFinder.testforopening('CS 4780-001');
 }
 
 // testPush();
