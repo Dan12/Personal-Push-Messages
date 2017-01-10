@@ -12,6 +12,6 @@ var classOpening = () => {
   classFinder.testforopening('CS 4780-001');
 }
 
-// testPush();
+testPush();
 
-classOpening();
+// classOpening();
