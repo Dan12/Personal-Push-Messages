@@ -3,9 +3,9 @@ Run any node js script and setup hooks to the firebase clound messenger for phon
 
 ## Firebase
 - Uses the [Firebase](https://firebase.google.com/) cloud messaging service
-- Click on go to console and create a new project.
-- Visit the [docs](https://firebase.google.com/docs/) to learn the basics for the android/ios firebase api.
+- Visit the console [here](https://console.firebase.google.com)
 - Go to the android folder of this project to see how I set up my android app.
+- Visit the [docs](https://firebase.google.com/docs/) to learn the basics for the android/ios firebase api.
 - Once the app is set up, go on to the install portion and fill in the variables in envVar.js
 
 ## Install
